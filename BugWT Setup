@@ -1,0 +1,215 @@
+{
+        "type"          : "group",
+        "name"          : "BugWTSetup",
+        "description"   : "Script by BugWT",
+        "text"          : "BugWT Setup",
+        "children"      : [
+                {
+                        "type"        : "checkbox",
+                        "name"        : "WalkThruPlayer",
+                        "description" : "If checked, your character will walk through players.",
+                        "text"        : "Walk Through Players",
+                        "value"       : false
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "PlayerAlarm",
+                        "description" : "If checked, Player on Screen Alarm will be enabled.",
+                        "text"        : "Player Alarm",
+                        "value"       : false
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "SafeExori",
+                        "description" : "If checked, you won't use area spells when players on screen.",
+                        "text"        : "Safe Exori",
+                        "value"       : true
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "SoftbootsRefill",
+                        "description" : "If checked, Softboots Refill in Venore will be enabled.",
+                        "text"        : "Softboots Refill",
+                        "value"       : true
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "AutoMount",
+                        "description" : "If checked, Auto-Mount will be enabled.",
+                        "text"        : "Auto-Mount",
+                        "value"       : true
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "AntiLure",
+                        "description" : "Amount of monsters to trigger the Anti-Lure.",
+                        "text"        : "Anti-Lure:",
+                        "value"       : "6"
+                }
+        ]
+},
+{
+        "type"    : "group",
+        "name"    : "Backpacks Setup",
+        "column"  : 1,
+        "children": [
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MainBP",
+                        "description" : "Your Main backpack.",
+                        "text"        : "Main Backpack:",
+                        "value"       : "Backpack of Holding"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "SuppliesBP",
+                        "description" : "Your backpack for Supplies.",
+                        "text"        : "Supplies Backpack:",
+                        "value"       : "Dragon Backpack"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "LootBP",
+                        "description" : "Your backpack for Loot.",
+                        "text"        : "Loot Backpack:",
+                        "value"       : "Jewelled Backpack"
+                },
+ 
+                {
+                        "type"        : "lineedit",
+                        "name"        : "GoldBP",
+                        "description" : "Your backpack for Gold.",
+                        "text"        : "Gold Backpack:",
+                        "value"       : "Brocade Backpack"
+                }
+        ]
+},
+ 
+{
+        "type"    : "group",
+        "name"    : "Depot Setup",
+        "column"  : 1,
+        "children": [
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MainDP",
+                        "description" : "Main Backpack located inside depot.",
+                        "text"        : "Main Depot Backpack:",
+                        "value"       : "Brown Backpack"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "StackDP",
+                        "description" : "Backpack located inside Main Depot Backpack, used for stackable loot.",
+                        "text"        : "Stackables Depot Backpack:",
+                        "value"       : "Beach Backpack"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "LootDP",
+                        "description" : "Backpack located inside Main Depot Backpack, used for non-stackable loot.",
+                        "text"        : "Loot Depot Backpack:",
+                        "value"       : "Purple Backpack"
+                }
+        ]
+},
+{
+        "type"    : "group",
+        "name"    : "Supplies",
+        "column"  : 2,
+        "children": [
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MaxMana",
+                        "description" : "Amount of Mana potions to buy.",
+                        "text"        : "Max Mana:",
+                        "value"       : "500"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MinMana",
+                        "description" : "Amount of Mana potions to trigger the refiller.",
+                        "text"        : "Min Mana:",
+                        "value"       : "100"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MaxGHP",
+                        "description" : "Amount of Great health potions to buy.",
+                        "text"        : "Max GHP:",
+                        "value"       : "100"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MinGHP",
+                        "description" : "Amount of Great health potions to trigger the refiller.",
+                        "text"        : "Min GHP:",
+                        "value"       : "20"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MaxUHP",
+                        "description" : "Amount of Ultimate health potions to buy.",
+                        "text"        : "Max UHP:",
+                        "value"       : "100"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MinUHP",
+                        "description" : "Amount of Ultimate health potions to trigger the refiller.",
+                        "text"        : "Min UHP:",
+                        "value"       : "20"
+                },
+                {
+                        "type"        : "lineedit",
+                        "name"        : "MinCap",
+                        "description" : "Amount of Cap to trigger the refiller.",
+                        "text"        : "Min Cap:",
+                        "value"       : "100"
+                }
+        ]
+},
+  
+{
+        "type"    : "group",
+        "name"    : "Extra Options",
+        "column"  : 2,
+        "children": [
+                {
+                        "type"        : "checkbox",
+                        "name"        : "HuntSouthEast",
+                        "description" : "Hunts South-East cave (-1). It has 2 Grim Reapers.",
+                        "text"        : "Hunt South-East",
+                        "value"       : false
+                },
+
+                {
+                        "type"        : "checkbox",
+                        "name"        : "HuntSouthWest",
+                        "description" : "Hunts South-West cave (-1). It has 2 Grim Reapers.",
+                        "text"        : "Hunt South-West",
+                        "value"       : false
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "HuntNorthWest",
+                        "description" : "Hunts North-West cave (-1). It has 1 Grim Reaper.",
+                        "text"        : "Hunt North-West",
+                        "value"       : false
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "HuntNorthEast",
+                        "description" : "Hunts North-East cave (-1). It has 1 Grim Reaper.",
+                        "text"        : "Hunt North-East",
+                        "value"       : false
+                },
+                {
+                        "type"        : "checkbox",
+                        "name"        : "HuntMiddleEast",
+                        "description" : "Hunts Middle-East cave (-1). It has 1 Grim Reaper.",
+                        "text"        : "Hunt Middle-East",
+                        "value"       : false
+                }
+        ]
+}
