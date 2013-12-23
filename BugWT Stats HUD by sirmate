@@ -124,12 +124,12 @@ local StringWidth, StringHeight = measurestring('TEMP')
 setfillstyle('gradient', 'linear', 2, 0, 0, 0, 22)
 addgradcolors(unpack(HUD_Colors.SectionHeaderBackground))
 drawroundrect(0, 0, 240, 21, 2, 2)
-drawtext('SCRIPT INFO', 6, 21 / 2 - StringHeight * 0.5)
+drawtext('BUGWT SCRIPTS', 6, 21 / 2 - StringHeight * 0.5)
  
 setfillstyle('gradient', 'linear', 2, 0, 0, 0, 22)
 addgradcolors(unpack(HUD_Colors.EntryValueBackground))
 drawroundrect(130, 0, 110, 21, 2, 2)
-drawtext('CREATOR NAME', 136, 21 / 2 - StringHeight * 0.5)
+drawtext('www.bugwt.com', 136, 21 / 2 - StringHeight * 0.5)
  
 setfontsize(7)
  
